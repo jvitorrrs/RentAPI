@@ -1,0 +1,26 @@
+
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <div class="sidenav-div">
+      <mat-nav-list>
+        <a mat-list-item routerLink="/" routerLinkActive="Inicio">Inicio</a>
+        <a mat-list-item routerLink="/cadastro" routerLinkActive="active">Cadastrar Cliente</a>
+        <a mat-list-item routerLink="/search" routerLinkActive="active">Procurar</a>
+        <a mat-list-item routerLink="/vencidos" routerLinkActive="active">Vencidos</a>
+      </mat-nav-list>
+    </div>
+  </mat-drawer>
+
+  <div class="sidenav-content">    
+    <mat-toolbar color="primary">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Rent
+      </button>
+    </mat-toolbar>
+  </div>
+
+  <div class="other-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</mat-drawer-container>

@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.form-card {
+  width: 80%;
+  max-width: 800px;
+  padding: 16px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px); /* Colunas com largura fixa */
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center; /* Centraliza as colunas */
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+}
+
+.campo-fixo {
+  width: 200px; /* Largura fixa */
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 16px;
+}

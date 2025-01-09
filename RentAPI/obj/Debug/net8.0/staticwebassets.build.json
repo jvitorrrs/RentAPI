@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "0jvnQqmoGbPZpaJEt0MoADhDXl37dFVFyWsJqCJxtrU=",
+  "Source": "RentAPI",
+  "BasePath": "_content/RentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RentAPI\\wwwroot",
+      "Source": "RentAPI",
+      "ContentRoot": "C:\\Users\\Win\\source\\repos\\RentAPI\\RentAPI\\wwwroot\\",
+      "BasePath": "_content/RentAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

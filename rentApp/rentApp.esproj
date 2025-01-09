@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1738743">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\rentApp\browser\</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="node_modules\ngx-mask\fesm2022\ngx-mask.mjs" />
+    <None Include="node_modules\ngx-mask\fesm2022\ngx-mask.mjs.map" />
+    <None Include="node_modules\ngx-mask\index.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\custom-keyboard-event.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask-applier.service.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask-expression.enum.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask.config.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask.directive.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask.pipe.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask.providers.d.ts" />
+    <None Include="node_modules\ngx-mask\lib\ngx-mask.service.d.ts" />
+    <None Include="node_modules\ngx-mask\LICENSE" />
+    <None Include="node_modules\ngx-mask\package.json" />
+    <None Include="node_modules\ngx-mask\README.md" />
+  </ItemGroup>
+</Project>

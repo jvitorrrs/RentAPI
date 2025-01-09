@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  --dynamic-height: 100vh;
+}
+
+.sidenav-content {
+  padding: 15px;
+  border-left: 1px solid black;
+}
+
+.sidenav-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:var(--dynamic-height);
+}
+
+.other-content {
+  height: var(--dynamic-height);
+}

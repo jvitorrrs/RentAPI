@@ -1,0 +1,31 @@
+.clientes-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cliente-card {
+  width: 300px;
+  margin: 10px;
+  padding:20px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}

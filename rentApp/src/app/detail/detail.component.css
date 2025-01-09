@@ -1,0 +1,50 @@
+.detalhe-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.detalhes-card {
+  width: 80%;
+  max-width: 800px;
+  padding:20px;
+}
+
+.detalhes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.detalhe-item {
+  display: flex;
+}
+
+.mini-card {
+  width: 250px; /* Tamanho fixo */
+  height: 70px; /* Altura fixa */
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+  .mini-card p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: #ff6f61;
+  font-size: 18px;
+}

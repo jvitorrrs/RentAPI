@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Win\\source\\repos\\RentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F153FA5-C966-4247-A07D-19DD19219302}|RentAPI.Tests\\RentAPI.Tests.csproj|c:\\users\\win\\source\\repos\\rentapi\\rentapi.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F153FA5-C966-4247-A07D-19DD19219302}|RentAPI.Tests\\RentAPI.Tests.csproj|solutionrelative:rentapi.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7571E037-F8A7-4DB6-853B-14F32FBC8ACA}|RentAPI\\RentAPI.csproj|c:\\users\\win\\source\\repos\\rentapi\\rentapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7571E037-F8A7-4DB6-853B-14F32FBC8ACA}|RentAPI\\RentAPI.csproj|solutionrelative:rentapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|c:\\users\\win\\source\\repos\\rentapi\\rentapp\\src\\app\\cadastro\\cadastro.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|solutionrelative:rentapp\\src\\app\\cadastro\\cadastro.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|c:\\users\\win\\source\\repos\\rentapi\\rentapp\\src\\app\\cadastro\\cadastro.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|solutionrelative:rentapp\\src\\app\\cadastro\\cadastro.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|c:\\users\\win\\source\\repos\\rentapi\\rentapp\\src\\app\\cadastro\\cadastro.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CF280C60-70B1-4976-92FA-75623AEB3D38}|rentApp\\rentApp.esproj|solutionrelative:rentapp\\src\\app\\cadastro\\cadastro.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Win\\source\\repos\\RentAPI\\RentAPI.Tests\\HomeControllerTests.cs",
+              "RelativeDocumentMoniker": "RentAPI.Tests\\HomeControllerTests.cs",
+              "ToolTip": "C:\\Users\\Win\\source\\repos\\RentAPI\\RentAPI.Tests\\HomeControllerTests.cs",
+              "RelativeToolTip": "RentAPI.Tests\\HomeControllerTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwHMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T15:29:06.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Win\\source\\repos\\RentAPI\\RentAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RentAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Win\\source\\repos\\RentAPI\\RentAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RentAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wCwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T21:09:12.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cadastro.component.css",
+              "DocumentMoniker": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.css",
+              "RelativeDocumentMoniker": "rentApp\\src\\app\\cadastro\\cadastro.component.css",
+              "ToolTip": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.css",
+              "RelativeToolTip": "rentApp\\src\\app\\cadastro\\cadastro.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-18T01:50:58.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cadastro.component.ts",
+              "DocumentMoniker": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.ts",
+              "RelativeDocumentMoniker": "rentApp\\src\\app\\cadastro\\cadastro.component.ts",
+              "ToolTip": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.ts",
+              "RelativeToolTip": "rentApp\\src\\app\\cadastro\\cadastro.component.ts",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-18T01:50:15.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cadastro.component.html",
+              "DocumentMoniker": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.html",
+              "RelativeDocumentMoniker": "rentApp\\src\\app\\cadastro\\cadastro.component.html",
+              "ToolTip": "C:\\Users\\Win\\source\\repos\\RentAPI\\rentApp\\src\\app\\cadastro\\cadastro.component.html",
+              "RelativeToolTip": "rentApp\\src\\app\\cadastro\\cadastro.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T01:48:47.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

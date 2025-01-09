@@ -1,0 +1,95 @@
+<div class="form-container">
+  <mat-card class="form-card mat-elevation-z8">
+    <mat-card-title>Cadastro de Cliente</mat-card-title>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()">
+        <div class="form-grid">
+          <!-- Nome -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Nome</mat-label>
+            <input matInput formControlName="nome" id="nome" placeholder="Digite o nome" />
+          </mat-form-field>
+
+          <!-- Telefone -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Telefone</mat-label>
+            <input matInput type="tel" formControlName="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX" mask="(00) 00000-0000" />
+          </mat-form-field>
+
+          <!-- Endereço -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Endereço</mat-label>
+            <input matInput formControlName="endereco" id="endereco" placeholder="Digite o endereço" />
+          </mat-form-field>
+
+          <!-- Bairro -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Bairro</mat-label>
+            <input matInput formControlName="bairro" id="bairro" placeholder="Digite o bairro" />
+          </mat-form-field>
+
+          <!-- Cidade -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Cidade</mat-label>
+            <input matInput formControlName="cidade" id="cidade" placeholder="Digite a cidade" />
+          </mat-form-field>
+
+          <!-- Estado -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Estado</mat-label>
+            <input matInput formControlName="estado" id="estado" placeholder="Digite o estado" />
+          </mat-form-field>
+
+          <!-- Email -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email" id="email" placeholder="Digite o email" />
+          </mat-form-field>
+
+          <!-- Documento -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Documento</mat-label>
+            <input matInput formControlName="documento" id="documento" placeholder="Digite o documento"  mask="CPF_CNPJ" />
+          </mat-form-field>
+
+          <!-- Valor do Contrato -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Valor do Contrato</mat-label>
+            <input matInput type="text" formControlName="valorContrato" id="valorContrato" placeholder="Digite o valor" mask="separator.1"/> <!-- Máscara monetária -->
+          </mat-form-field>
+
+          <!-- Início do Contrato -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Início do Contrato</mat-label>
+            <input matInput type="date" formControlName="inicioContrato" id="inicioContrato" />
+          </mat-form-field>
+
+          <!-- Término do Contrato -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Término do Contrato</mat-label>
+            <input matInput type="date" formControlName="terminoContrato" id="terminoContrato" />
+            <mat-error *ngIf="cadastroForm.get('terminoContrato')?.hasError('erroData')">A data do término do contrato deve ser maior do que do início.</mat-error>
+          </mat-form-field>
+
+          <!-- Dia do Vencimento -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Dia do Vencimento</mat-label>
+            <input matInput type="number" formControlName="diaVencimento" id="diaVencimento" placeholder="Digite o dia" />
+          </mat-form-field>
+
+          <!-- Último Pagamento -->
+          <mat-form-field class="campo-fixo" appearance="outline">
+            <mat-label>Último Pagamento</mat-label>
+            <input matInput formControlName="ultimoPgto" id="ultimoPgto" placeholder="Digite a data do último pagamento" />
+          </mat-form-field>
+        </div>
+
+        <div class="form-actions">
+          <button mat-raised-button color="primary" type="submit" [disabled]="cadastroForm.invalid">Salvar</button>
+          <button mat-raised-button color="warn" type="button" (click)="onReset()" routerLink="/">Cancelar</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
